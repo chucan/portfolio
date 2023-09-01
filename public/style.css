@@ -111,8 +111,17 @@ main {
   max-width: 980px;
   text-align: left;
   transition: all 0.2s ease-in-out;
+  animation: fadeIn 1.5s ease 0s 1 normal;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   margin: 0 auto;
   font-family: "Montserrat","游ゴシック体","YuGothic","Yu Gothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro", sans-serif;
@@ -105,6 +106,24 @@ main {
   max-width: 980px;
   text-align: left;
   transition: all 0.2s ease-in-out;
+  -webkit-animation: fadeIn 1.5s ease 0s 1 normal;
+  animation: fadeIn 1.5s ease 0s 1 normal;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
 }
 
 .container {

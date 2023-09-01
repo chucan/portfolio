@@ -187,6 +187,12 @@ main {
   display: block;
   padding: 0 0 8px 0;
 }
+.works_detail .title_container .date_ad {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #afa89e;
+}
 .works_detail img {
   width: 88%;
   height: auto;

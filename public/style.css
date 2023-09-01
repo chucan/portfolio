@@ -193,12 +193,17 @@ main {
   font-weight: 500;
   color: #afa89e;
 }
-.works_detail img {
-  width: 88%;
-  height: auto;
+.works_detail .work_img_box {
+  display: grid;
+  grid-template-columns: repeat(1, 0.9fr);
+  row-gap: clamp(24px, 5vw, 64px);
+  max-width: 980px;
+  place-content: center;
+}
+.works_detail .work_img_box img {
+  width: 100%;
   border-radius: 8px;
   background-color: #fff;
-  margin: 2% 6%;
 }
 .works_detail .text_container {
   display: flex;
@@ -232,7 +237,10 @@ main {
 }
 
 @media screen and (max-width: 767px) {
-  .text_container {
+  .works_detail .work_img_box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .works_detail .text_container {
     display: block;
   }
 }

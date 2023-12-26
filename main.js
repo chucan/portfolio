@@ -1,10 +1,6 @@
-const includeHeader = new XMLHttpRequest();
-includeHeader.open("GET", "include/header.html", true);
-includeHeader.onreadystatechange = function () {
-  if (includeHeader.readyState === 4 && includeHeader.status === 200) {
-    const headerHTML = includeHeader.responseText;
-    const header = document.querySelector("#header");
-    header.insertAdjacentHTML("afterbegin", headerHTML);
-  }
-};
-includeHeader.send();
+fetch("../include/header.html")
+  .then((response) => response.text())
+  .then((data) => document.querySelector("#header").innerHTML = data);
+fetch("../include/footer.html")
+  .then((response) => response.text())
+  .then((data) => document.querySelector("#footer").innerHTML = data);

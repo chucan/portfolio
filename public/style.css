@@ -35,7 +35,7 @@ a:hover {
 
 p {
   font-size: 14px;
-  line-height: 1.6em;
+  line-height: 1.8em;
 }
 
 ul {
@@ -138,10 +138,7 @@ main {
   border: solid 1px #edece6;
   background-color: #fff;
   border-radius: 8px;
-}
-.works_list .img_box:hover {
-  transform: scale(1.02);
-  transition: all 0.2s ease-in-out;
+  overflow: hidden;
 }
 .works_list .img_box img {
   width: 100%;
@@ -151,6 +148,10 @@ main {
      object-fit: cover;
   vertical-align: top;
   border-radius: 8px;
+}
+.works_list .img_box img:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
 }
 .works_list title {
   padding: 8px 0 6px;
@@ -204,6 +205,10 @@ main {
   width: 100%;
   border-radius: 8px;
   background-color: #fff;
+}
+.works_detail .work_img_box .img_small {
+  width: 40%;
+  margin: auto;
 }
 .works_detail .text_container {
   display: flex;
@@ -263,7 +268,7 @@ main {
   padding-bottom: 24px;
 }
 .about_container section {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .about_container .message {
   line-height: 2em;
@@ -286,6 +291,12 @@ main {
   display: inline-block;
   width: 80px;
   line-height: 0;
+}
+@media screen and (max-width: 767px) {
+  .about_container time {
+    display: block;
+    line-height: 2;
+  }
 }
 
 /*--------------------------------------------------------------

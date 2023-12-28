@@ -30,7 +30,7 @@ a {
 a:hover {
   color: #333;
   text-decoration: underline;
-  text-underline-offset: -0.2px;
+  text-underline-offset: 2px;
 }
 
 p {
@@ -99,6 +99,10 @@ nav a {
   font-weight: 600;
   padding-left: 16px;
 }
+nav a.select {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 
 /*--------------------------------------------------------------
 # main
@@ -132,7 +136,7 @@ main {
 
 .works_list {
   width: 100%;
-  height: auto;
+  height: 86%;
 }
 .works_list .img_box {
   border: solid 1px #edece6;
@@ -159,11 +163,11 @@ main {
 }
 .works_list title:hover {
   text-decoration: underline;
-  text-underline-offset: -0.2px;
+  text-underline-offset: 2px;
 }
 .works_list .category {
   display: block;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
   color: #afa89e;
 }
@@ -238,7 +242,7 @@ main {
 }
 .works_detail a {
   text-decoration: underline;
-  text-underline-offset: -0.2px;
+  text-underline-offset: 2px;
 }
 
 @media screen and (max-width: 767px) {

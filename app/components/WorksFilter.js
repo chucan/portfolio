@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
+import { useSearchParams, useRouter } from 'next/navigation'
 
 function groupBySection(works) {
   const sections = []
@@ -17,13 +17,23 @@ function groupBySection(works) {
 }
 
 export default function WorksFilter({ works }) {
-  const [selectedTag, setSelectedTag] = useState(null)
+  const searchParams = useSearchParams()
+  const router = useRouter()
+  const selectedTag = searchParams.get('tag')
 
   const filteredWorks = selectedTag
     ? works.filter(w => w.tags.includes(selectedTag))
     : works
 
   const sections = groupBySection(filteredWorks)
+
+  const handleTagClick = (tag) => {
+    if (selectedTag === tag) {
+      router.push('/')
+    } else {
+      router.push(`/?tag=${encodeURIComponent(tag)}`)
+    }
+  }
 
   return (
     <>
@@ -44,7 +54,7 @@ export default function WorksFilter({ works }) {
                     <button
                       key={tag}
                       className={`tag${selectedTag === tag ? ' active' : ''}`}
-                      onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
+                      onClick={() => handleTagClick(tag)}
                     >{tag}</button>
                   ))}
                 </div>

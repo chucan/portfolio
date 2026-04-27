@@ -1,0 +1,441 @@
+[
+  {
+    "slug": "stores-seal-book",
+    "section": "STORES, inc.",
+    "title": "STORES シールブック",
+    "category": "Novelty , Illustration",
+    "tags": ["Goods", "Illustration"],
+    "thumbnail": "stores_seal_book_01.png",
+    "year": "2023",
+    "scope": "Novelty , Illustration",
+    "tool": "Illustrator",
+    "images": [
+      { "src": "/img/stores_seal_book_01.png", "alt": "STORES シールブック" },
+      { "src": "/img/stores_seal_book_02.png", "alt": "STORES シールブック" },
+      { "src": "/img/stores_seal_book.gif", "alt": "STORES シールブック" }
+    ],
+    "description": [
+      "STORES ダイバーシティプロジェクトの一環で、子ども向けノベルティとして遊べるシールブックを制作しました。",
+      "STORES のキャラクター「ストまる」が、商売繁盛を願掛けしながら1日を過ごすストーリー仕立てです。絵本を読みながらシールで遊んでいただけます。プロダクトの概要を伝えつつ、子どもでも貼りやすいシールの大きさ、持ち運びしやすいサイズにこだわりました。",
+      "その他こだわりはnoteにて発信しています。"
+    ],
+    "links": [
+      { "label": "初めて子ども向けのノベルティをデザインした話", "url": "https://note.com/chucaaan/n/n0afc1182fcd9" }
+    ]
+  },
+  {
+    "slug": "stores-diversity",
+    "section": "STORES, inc.",
+    "title": "STORES ダイバーシティ",
+    "category": "Graphic",
+    "tags": ["Graphic"],
+    "thumbnail": "stores_diversity.png",
+    "year": "2023",
+    "scope": "Graphic",
+    "tool": "Handwriting , Procreate(iPad) , Illustrator",
+    "images": [
+      { "src": "/img/stores_diversity.png", "alt": "STORES ダイバーシティ" }
+    ],
+    "description": [
+      "STORES ダイバーシティプロジェクトのメインビジュアルを制作しました。",
+      "「原石」をコンセプトに、柔らかい水のようにも硬い石のようにも見える要素で、抽象的なイメージに落とし込んでいます。誰もが「原石」であり、キラリと輝く要素があるメッセージを縁取りの色で表現しています。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "stores-office",
+    "section": "STORES, inc.",
+    "title": "STORES, Inc. オフィス のれん",
+    "category": "Fabric , Space design",
+    "tags": ["Illustration", "Graphic"],
+    "thumbnail": "hey_noren_01.png",
+    "year": "2022",
+    "scope": "Fabric , Space design",
+    "tool": "Illustrator , Procreate(iPad)",
+    "images": [
+      { "src": "/img/hey_noren_01.png", "alt": "STORES のれん" },
+      { "src": "/img/hey_noren_02.png", "alt": "STORES のれん" },
+      { "src": "/img/hey_noren_03.png", "alt": "STORES のれん" },
+      { "src": "/img/hey_noren_04.png", "alt": "STORES のれん" }
+    ],
+    "description": [
+      "STORES オフィス内にある、ゾーン間をゆるやかに区切るための「のれん」をデザインしました。",
+      "ビジュアルコンセプトは「素材の発掘」。メンバーの個性を素材と見立て、オフィスはその素材たちが発掘され出会い、化学反応が起きる場。木や水、風の集合をモチーフとすることで、多様性を尊重する組織の個性をビジュアルで表現しています。"
+    ],
+    "links": [
+      { "label": "プレスリリース", "url": "https://prtimes.jp/main/html/rd/p/000000083.000031375.html" }
+    ]
+  },
+  {
+    "slug": "stores",
+    "section": "STORES, inc.",
+    "title": "STORES",
+    "category": "Web , Direction , Branding , Coding etc...",
+    "tags": ["Web", "Branding"],
+    "thumbnail": "stores_01.png",
+    "year": "",
+    "scope": "Web , Direction , Branding , Coding etc...",
+    "tool": "Figma , Illustrator , Photoshop , After Effects",
+    "images": [
+      { "src": "/img/stores_02.png", "alt": "STORES" }
+    ],
+    "description": [
+      "お店のデジタルをまるっと支援する「STORES」のサービスサイトのデザイン、情報設計、ブランドを構築しています。",
+      "コミュニケーションデザイナーとして、マーケティング施策の実施、数値改善、広報物のデザイン、ノベルティのデザイン、写真ディレクションなど、幅広く手掛けています。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "kamaitachi-hey-goods",
+    "section": "STORES, inc.",
+    "title": "TBSラジオ「かまいたちのヘイ！タクシー！」×heyコラボ オンラインストア",
+    "category": "Goods , EC",
+    "tags": ["Goods", "Illustration"],
+    "thumbnail": "kamaitachi_hey_goods_03.png",
+    "year": "2022",
+    "scope": "Goods , EC , Illustration",
+    "tool": "Photoshop , Illustrator , Figma",
+    "images": [
+      { "src": "/img/kamaitachi_hey_goods_01.png", "alt": "TBSラジオ「かまいたちのヘイ！タクシー！」×heyコラボ" },
+      { "src": "/img/kamaitachi_hey_goods_02.png", "alt": "TBSラジオ「かまいたちのヘイ！タクシー！」×heyコラボ" }
+    ],
+    "description": [
+      "STORES がスポンサーを務めたTBSラジオ「かまいたちのヘイ！タクシー！」と、heyのコラボオンラインストアを制作しました。",
+      "オンラインストア内のロゴやバナー、グッズのデザイン、販売時SNS用のバナー、までトータルでディレクションも行いました。",
+      "※ 期間限定 受注販売のため、現在は非公開"
+    ],
+    "links": []
+  },
+  {
+    "slug": "kojimasan-goods",
+    "section": "STORES, inc.",
+    "title": "アンジャッシュ児嶋さん オンラインストア",
+    "category": "Goods , EC",
+    "tags": ["Goods"],
+    "thumbnail": "kojimasan_goods_03.png",
+    "year": "2021",
+    "scope": "Goods , EC",
+    "tool": "Photoshop , Illustrator , Figma",
+    "images": [
+      { "src": "/img/kojimasan_goods_01.png", "alt": "児嶋さん オンラインストア" },
+      { "src": "/img/kojimasan_goods_02.png", "alt": "児嶋さん オンラインストア" }
+    ],
+    "description": [
+      "STORES のCMに出演していたアンジャッシュ児嶋さんのYouTubeオンラインストアを制作しました。",
+      "オンラインストア内のロゴやバナー、グッズのデザインまでトータルでディレクションも行いました。",
+      "※ 期間限定 受注販売のため、現在は非公開"
+    ],
+    "links": []
+  },
+  {
+    "slug": "sauna-harajuku",
+    "section": "STORES, inc.",
+    "title": "サウ〜ナ原宿 @ラフォーレ原宿",
+    "category": "Illustration , Graphic",
+    "tags": ["Illustration", "Graphic"],
+    "thumbnail": "Laforet_HARAJUKU_sauna_01.png",
+    "year": "2021",
+    "scope": "Illustration , Graphic",
+    "tool": "Procreate(iPad) , Illustrator",
+    "images": [
+      { "src": "/img/Laforet_HARAJUKU_sauna_01.png", "alt": "サウ〜ナ原宿 @ラフォーレ原宿" },
+      { "src": "/img/Laforet_HARAJUKU_sauna_02.png", "alt": "サウ〜ナ原宿 @ラフォーレ原宿" }
+    ],
+    "description": [
+      "ラフォーレ原宿2F WHITE GALLERYにて開催した「サウ〜ナ原宿」のビジュアルとイラストを制作しました。",
+      "サウナでほぐされ癒されている人たちを描きました。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "hey-allstar",
+    "section": "STORES, inc.",
+    "title": "hey, inc. オフサイト",
+    "category": "Illustration , Graphic",
+    "tags": ["Illustration", "Graphic"],
+    "thumbnail": "hey_allstarhey.png",
+    "year": "2021",
+    "scope": "Graphic , Illustration",
+    "tool": "Illustrator , Photoshop , After Effects",
+    "images": [
+      { "src": "/img/hey_allstarhey.png", "alt": "hey, inc. オフサイト" },
+      { "src": "/img/hey_allstarhey_animation.gif", "alt": "hey, inc. オフサイト", "small": true }
+    ],
+    "description": [
+      "フルオンラインで開催された自社のオフサイト（バリュー策定ワークショップ）「オールスターヘイ」のメインビジュアルを制作しました。",
+      "heyの多様＆ユニークなメンバーをイメージしたキャラクターたちが、共に同じ方向を向き歩んでいく姿をビジュアルにしています。オフサイトを通じて、みんなでより良い未来へ進んでいくという想いを込めて制作しました。",
+      "heyはこれまでモノトーンのみのブランディングでビジュアルの展開していたので、どう表現の幅を広げようか試行錯誤しました。平面ではなく奥行き感を出し、網点でモノトーンの表現に強弱をつけることでユニークさを出しています。また、足をheyロゴの\"y\"のようにしheyらしさと関連付けています。",
+      "メインビジュアルに合わせてアニメーション（Slack絵文字用）やノベルティも展開しています。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "hey-character",
+    "section": "STORES, inc.",
+    "title": "hey, inc. はろ平（へい）",
+    "category": "Character , Illustration",
+    "tags": ["Illustration"],
+    "thumbnail": "hey_character.png",
+    "year": "2019",
+    "scope": "Illustration , Character Design",
+    "tool": "Illustrator , Procreate（iPad）",
+    "images": [
+      { "src": "/img/hey_character.png", "alt": "hey, inc. はろ平" }
+    ],
+    "description": [
+      "heyのキャラクター「はろ平（へい）」をデザインしました。",
+      "heyは「Just for Fun」をミッションに、こだわりや情熱、たのしみによって駆動される経済の発展を支援している会社です。「Just for Fun」は、Linux（リナックス）の開発者であるリーナス・トーバルズさんの言葉が引用元です。Linuxの公式マスコットキャラクターのペンギンから、はろ平は着想を得ています。",
+      "主に採用周りの広報物、ノベルティで活躍するキャラクターとして、インナーブランディングのための設計を行い、デザインを展開していきました。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "hey-aloha",
+    "section": "STORES, inc.",
+    "title": "hey, inc. アロハシャツ",
+    "category": "Textile pattern , Goods",
+    "tags": ["Illustration", "Goods"],
+    "thumbnail": "hey_aloha_01.png",
+    "year": "2019",
+    "scope": "Illustration , Textile pattern , Goods",
+    "tool": "Illustrator , Procreate（iPad）",
+    "images": [
+      { "src": "/img/hey_aloha_01.png", "alt": "hey, inc. アロハシャツ" },
+      { "src": "/img/hey_aloha_02.png", "alt": "hey, inc. アロハシャツ" },
+      { "src": "/img/hey_aloha_03.png", "alt": "hey, inc. アロハシャツ" }
+    ],
+    "description": [
+      "heyのオフィシャルグッズ アロハシャツを作りました。",
+      "社長の佐藤の好物「アンチョビ」から着想を得て、イワシとオリーブのイラストを描き、テキスタイル化しました。微かに「Just for Fun」の隠しメッセージが入っています。",
+      "生地の質感、色、ボタンにもこだわり、業者選定〜業者やりとり〜印刷チェックなどの制作まで一貫して行いました。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "hey",
+    "section": "STORES, inc.",
+    "title": "hey, inc.",
+    "category": "Logo , illustration",
+    "tags": ["Logo", "Illustration"],
+    "thumbnail": "hey_01.png",
+    "year": "2018",
+    "scope": "Logo Design , Illustration",
+    "tool": "Illustrator , Procreate（iPad）",
+    "images": [
+      { "src": "/img/hey_logo_01.png", "alt": "hey, inc. ロゴ＆イラスト" },
+      { "src": "/img/hey_logo_02.png", "alt": "hey, inc. ロゴ＆イラスト" },
+      { "src": "/img/hellohey.gif", "alt": "hey, inc. ロゴ＆イラスト" }
+    ],
+    "description": [
+      "CoineyとSTORES.jpの経営統合によって設立された「hey」のCIデザイン制作を行いました。ロゴデザインも行いつつ、主に経営陣の似顔絵をはじめとしたイラストを担当しています。",
+      "※ 現在こちらの絵柄でのイラスト受注はお断りしております。"
+    ],
+    "links": [
+      { "label": "heyインサイドストーリー 〜heyのCIデザインプロセス全記録〜", "url": "https://note.com/stam_mat2/n/n5282047afb1d" }
+    ]
+  },
+  {
+    "slug": "stores-old",
+    "section": "STORES, inc.",
+    "title": "STORES.jp",
+    "category": "Web , Branding",
+    "tags": ["Web", "Branding"],
+    "thumbnail": "storesjp_spice_01.png",
+    "year": "2019",
+    "scope": "Web , Direction , Branding , Coding etc...",
+    "tool": "Figma , Illustrator , Photoshop , After Effects",
+    "images": [
+      { "src": "/img/storesjp_spice_01.png", "alt": "STORES.jp" },
+      { "src": "/img/storesjp_spice_02.png", "alt": "STORES.jp" },
+      { "src": "/img/storesjp_spice_03.png", "alt": "STORES.jp" },
+      { "src": "/img/storesjp_spice_04.png", "alt": "STORES.jp" }
+    ],
+    "description": [
+      "誰でもかんたんにオンラインストアがつくれる「STORES.jp」のリブランディングを行いました。",
+      "サービスサイトのWEBデザインを中心に、フォントの選定、ビジュアルの作成、ブランディングを構築していきました。",
+      "商売の主役はショップオーナーであり、STORES.jpはその個性を引き立てる・魅力を最大化する思いを込めて、スパイスをテーマにしたパターンをデザインしました。（それぞれのパターンに香辛料の名前がついています）。STORES.jpらしい楽しさの象徴として、ブランドが目指す新しい世界観を導いています。"
+    ],
+    "links": [
+      { "label": "「STORES.jp」がサービスサイトのリニューアルを実施 リブランディングプロジェクト第一弾（AXIS掲載）", "url": "https://www.axismag.jp/posts/2019/07/139232.html" }
+    ]
+  },
+  {
+    "slug": "storesjp-corporate",
+    "section": "STORES, inc.",
+    "title": "STORES.jp Corporate site",
+    "category": "Web , Illustration",
+    "tags": ["Web", "Illustration"],
+    "thumbnail": "storesjp_corporate_01.png",
+    "year": "2018",
+    "scope": "Web , Illustration",
+    "tool": "Handwriting , Procreate(iPad) , Illustrator",
+    "images": [
+      { "src": "/img/storesjp_corporate_04.png", "alt": "STORES.jp Corporate site" },
+      { "src": "/img/storesjp_corporate_03.png", "alt": "STORES.jp Corporate site" }
+    ],
+    "description": [
+      "STORES.jp（現STORES株式会社） のコーポレートサイトをデザインしています。",
+      "オフィスにある動物モチーフのアイテムから着想を得てイラストに起こし、動物達がオフィスを覗きに来ているかのような印象のデザインにしました。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "nikino-ookubo",
+    "section": "Freelance",
+    "title": "大久保精肉店",
+    "category": "Goods",
+    "tags": ["Goods"],
+    "thumbnail": "nikuno_ookubo_01.png",
+    "year": "2023",
+    "scope": "Goods",
+    "client": "大久保精肉店",
+    "tool": "Procreate(iPad) , Illustrator",
+    "images": [
+      { "src": "/img/nikuno_ookubo_02.png", "alt": "大久保精肉店" }
+    ],
+    "description": [
+      "豊島区雑司ヶ谷にある老舗の精肉店「肉の大久保」のグッズ制作をお手伝いしています。第一弾は、レトロで特徴的な可愛い看板をステッカーにしました。",
+      "スマホケースに入るサイズ感、耐水加工など、ステッカーの紙質にもこだわりました。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "new-tsukishima",
+    "section": "Freelance",
+    "title": "ニュー月島",
+    "category": "Logo",
+    "tags": ["Logo"],
+    "thumbnail": "new_tsukishima_01.png",
+    "year": "2021",
+    "scope": "Logo Design",
+    "tool": "Handwriting , Procreate(iPad) , Illustrator",
+    "images": [
+      { "src": "/img/new_tsukishima_01.png", "alt": "ニュー月島" },
+      { "src": "/img/new_tsukishima_02.png", "alt": "ニュー月島" },
+      { "src": "/img/new_tsukishima_03.png", "alt": "ニュー月島" }
+    ],
+    "description": [
+      "写真家 KENSUKE HOSOYAさんの屋号である「ニュー月島」のロゴをデザインしました。",
+      "記憶の中のどこかで見かけたような、懐かしい景色を思い出すような、ロマンティックさを彷彿とさせる印象を落とし込みました。KENSUKE HOSOYAさんの世界観に合う配色の提案も行いました。",
+      "オリジナルグッズにもロゴをあしらったデザインで展開されています。",
+      "Photographer / KENSUKE HOSOYA"
+    ],
+    "links": [
+      { "label": "https://new-tsukishima.stores.jp", "url": "https://new-tsukishima.stores.jp" }
+    ]
+  },
+  {
+    "slug": "damd",
+    "section": "Freelance",
+    "title": "DAMD",
+    "category": "Catalog",
+    "tags": ["Photo"],
+    "thumbnail": "damd_01.png",
+    "year": "2021-2023",
+    "scope": "Catalog Design",
+    "client": "株式会社DAMD",
+    "tool": "Illustrator , Photoshop",
+    "images": [
+      { "src": "/img/damd_01.png", "alt": "DAMD" },
+      { "src": "/img/damd_02.png", "alt": "DAMD" },
+      { "src": "/img/damd_03.png", "alt": "DAMD" },
+      { "src": "/img/damd_04.png", "alt": "DAMD" }
+    ],
+    "description": [
+      "自動車パーツメーカー・株式会社DAMDのカタログを情報設計〜デザインしました。",
+      "合計28ページに及ぶ冊子は、ダイナミックな写真を見開きページでレイアウトし、カスタムカーの魅力を伝わりやすいように構成しています。利用シーンを想像しやすくなるよう、季節に合わせ表紙や写真を更新しています。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "kagyoaid",
+    "section": "Freelance",
+    "title": "家業エイド",
+    "category": "Illustration",
+    "tags": ["Illustration"],
+    "thumbnail": "kagyoaid.png",
+    "year": "2021-2022",
+    "scope": "Illustration",
+    "client": "エヌエヌ生命保険株式会社",
+    "tool": "Illustrator , Procreate(iPad)",
+    "images": [
+      { "src": "/img/kagyoaid.png", "alt": "家業エイド" }
+    ],
+    "description": [
+      "自分らしい家業との関わり方を実現するための共創プラットフォーム 家業エイドのイラストを制作しました。",
+      "若い家業持ち・後継者をターゲットに、やわらかみのあるイラストやポップなカラーを取り入れています。",
+      "家業や職種により年齢やジェンダーを想起することが多いですが、老若男女様々な方が参加しているプラットフォームのため犬を擬人化して多様性を表現しています。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "tetopettenson",
+    "section": "Freelance",
+    "title": "テト・ペッテンソン",
+    "category": "Logo , Illustration , CD jacket , Graphic",
+    "tags": ["Logo", "Illustration", "Graphic"],
+    "thumbnail": "tetopettenson_01.png",
+    "year": "2019",
+    "scope": "Logo , Illustration , CD jacket , Graphic",
+    "tool": "Handwriting , Procreate(iPad) , Illustrator",
+    "images": [
+      { "src": "/img/tetopettenson_01.png", "alt": "テト・ペッテンソン" },
+      { "src": "/img/tetopettenson_03.png", "alt": "テト・ペッテンソン" },
+      { "src": "/img/tetopettenson_04.png", "alt": "テト・ペッテンソン" },
+      { "src": "/img/tetopettenson_05.png", "alt": "テト・ペッテンソン" }
+    ],
+    "description": [
+      "名古屋を中心に活動するバンド、テト・ペッテンソンの1st EP「期待」のアートワークを全てデザインしました。",
+      "EPタイトルの「期待」している時の心情・感情を、曲線と幾何学的な線で表現しています。",
+      "ロゴをあしらったデザインでオリジナルグッズやMVにも展開されています。",
+      "Photographer / Ryo Adachi（足立涼）"
+    ],
+    "links": []
+  },
+  {
+    "slug": "yakushima",
+    "section": "Freelance",
+    "title": "屋久島・口永良部島写真コンテスト",
+    "category": "Photograph",
+    "tags": ["Photo"],
+    "thumbnail": "yakushima_shisen.png",
+    "year": "2021",
+    "scope": "Photograph",
+    "tool": "",
+    "images": [
+      { "src": "/img/yakushima_shisen.png", "alt": "屋久島・口永良部島写真コンテスト" }
+    ],
+    "description": [
+      "屋久島・口永良部島写真コンテスト グランプリ",
+      "屋久杉自然館の来訪客による投票の結果、応募総数235点の中からグランプリを受賞しました。2022年 屋久島のオリジナルカレンダーにも採用されています。"
+    ],
+    "links": [
+      { "label": "朝日新聞デジタル・屋久島経済新聞 インタビュー掲載", "url": "https://www.asahi.com/articles/ASPBC6RCWP9WTLTB001.html" }
+    ]
+  },
+  {
+    "slug": "crazywedding-ui",
+    "section": "Freelance",
+    "title": "CRAZY WEDDING \"ui\"",
+    "category": "Fabric pattern",
+    "tags": ["Illustration"],
+    "thumbnail": "crazywedding_03.png",
+    "year": "2021",
+    "scope": "Fabric Design",
+    "client": "CRAZY WEDDING",
+    "tool": "Handwriting , Procreate(iPad) , Illustrator",
+    "images": [
+      { "src": "/img/crazywedding_02.png", "alt": "CRAZY WEDDING ui" },
+      { "src": "/img/crazywedding_01.png", "alt": "CRAZY WEDDING ui" }
+    ],
+    "description": [
+      "CRAZY WEDDING ディレクションの結婚式\"ui\"のファブリックのパターンデザインを制作しました。",
+      "コンセプトは\"ui\"（初とYou and I のダブルミーニング）。初めての体験を新郎新婦とゲストを巻き込んでみんなで盛り上がって過ごすための明るい空間演出を目指し、新郎新婦の思い出や記念となるアイテムを幾何学模様に落とし込みました。",
+      "空間に使用した布は後日リメイクされ、参列者にエコバックとして配られました。",
+      "Photographer / 飯倉 孝史 Takafumi Iikura"
+    ],
+    "links": [
+      { "label": "CRAZY WEDDING \"ui\" CASE紹介記事", "url": "https://www.crazy.co.jp/wedding/case/446" }
+    ]
+  }
+]

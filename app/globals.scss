@@ -5,25 +5,25 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0 auto;
-  font-family: "Montserrat","游ゴシック体","YuGothic","Yu Gothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro", sans-serif;
+  font-family: "Rubik", "Hiragino Sans", "ヒラギノ角ゴシック", sans-serif;
   font-feature-settings: "palt" 1;
-  letter-spacing: 0.1em;
+  letter-spacing: .06em;
   background-color: #fff;
   font-size: 14px;
 }
 
 h1,h2,h3,h4,p,span,li {
   display: inline-block;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a {
   cursor: pointer;
-  color: #333;
+  color: #000045;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -50,51 +50,78 @@ li {
 }
 
 /*--------------------------------------------------------------
-# header
+# layout wrapper
+--------------------------------------------------------------*/
+
+.layout {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  min-height: 100vh;
+}
+
+/*--------------------------------------------------------------
+# header / sidebar
 --------------------------------------------------------------*/
 
 header {
-  z-index: 99;
+  grid-column: 1;
+  grid-row: 1 / 4;
+  position: sticky;
+  top: 0;
   display: flex;
-  position: fixed;
-  top: 16px;
-  left: 16px;
-  width: 100%;
-  height: 40px;
+  flex-direction: column;
+  height: 100vh;
+  padding: 16px;
+  background-color: #fff;
+  z-index: 99;
 }
 
 .page_title {
-  width: 148px;
   line-height: 1;
+  width: 148px;
   a {
     text-decoration: none;
   }
   h1 {
     margin-bottom: 4px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
   }
   .page_sub_title {
     font-size: 10px;
     font-weight: 600;
     line-height: 0;
+    width: 148px;
     text-align: justify;
     text-align-last: justify;
   }
 }
 
 nav {
-  position: fixed;
-  top: 18px;
-  right: 16px;
-  a {
+  margin-top: 24px;
+  .nav_group {
+    margin-bottom: 8px;
+  }
+  .nav_label {
+    display: block;
     font-size: 14px;
-    font-weight: 600;
-    padding-left: 16px;
-    &.select {
-      text-decoration: underline;
-      text-underline-offset: 2px;
+    font-weight: 500;
+    padding-bottom: 16px;
+  }
+  .nav_sub {
+    padding-left: 8px;
+    a {
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      padding-bottom: 16px;
     }
+  }
+  .select {
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
 }
 
@@ -103,13 +130,9 @@ nav {
 --------------------------------------------------------------*/
 
 main {
-  display: grid;
-  margin: auto;
-  padding: 16vh 0;
-  padding-inline: clamp(24px, 5vw, 64px);
-  max-width: 980px;
+  grid-column: 2;
+  padding: 6vh 48px 16vh 32px;
   text-align: left;
-  transition: all 0.2s ease-in-out;
   animation: fadeIn 1.5s ease 0s 1 normal;
 }
 
@@ -121,22 +144,21 @@ main {
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: clamp(24px, 5vw, 64px);
-  row-gap: clamp(24px, 5vw, 64px);
+  column-gap: clamp(16px, 3vw, 32px);
+  row-gap: clamp(24px, 4vw, 40px);
 }
 
 .works_list {
   width: 100%;
-  height: 86%;
   .img_box {
     border: solid 1px #edece6;
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
+    aspect-ratio: 1200 / 630;
     img {
       width: 100%;
-      height: 86%;
-      max-height: 260px;
+      height: 100%;
       object-fit: cover;
       vertical-align: top;
       &:hover {
@@ -147,59 +169,71 @@ main {
   }
   .work_title {
     display: inline-block;
-    padding: 8px 0 6px;
+    padding: 8px 0 0;
     font-size: 14px;
     &:hover {
       text-decoration: underline;
       text-underline-offset: 2px;
     }
   }
-  .work_tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    margin-top: 6px;
-    .tag {
-      font-size: 11px;
-      color: #8c867e;
-      border: 1px solid #e0ddd8;
-      border-radius: 100px;
-      padding: 2px 9px;
-      cursor: pointer;
-      background: none;
-      font-family: inherit;
-      letter-spacing: 0.05em;
-      transition: all 0.15s ease;
-      &:hover, &.active {
-        border-color: #333;
-        color: #333;
-      }
+}
+
+.work_year {
+  display: block;
+  font-size: 10px;
+  color: #000045;
+  padding: 2px 0;
+}
+
+.work_tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+  .tag {
+    font-size: 10px;
+    color: #8c867e;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-family: inherit;
+    letter-spacing: 0.05em;
+    transition: background-color 0.15s ease;
+    &:hover {
+      background-color: #f7f7f7;
+      color: #000045;
+      text-decoration: none;
+    }
+    &.active {
+      background-color: #d5d1cb;
+      color: #000045;
+      text-decoration: none;
     }
   }
 }
 
-@media screen and (max-width: 767px) {
-  .container {
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: clamp(24px, 5vw, 64px);
-  }
+.works_filter_wrap {
+  animation: fadeIn 0.4s ease;
 }
 
 /*--------------------------------------------------------------
-# section
+# works section
 --------------------------------------------------------------*/
 
-.section_group {
+.works_section {
   margin-bottom: clamp(48px, 8vw, 96px);
 }
 
-.section_heading {
+.works_section_heading {
   display: block;
-  font-size: 12px;
-  font-weight: 600;
-  color: #8c867e;
-  letter-spacing: 0.12em;
-  margin-bottom: clamp(16px, 3vw, 32px);
+  font-size: 20px;
+  font-weight: 500;
+  color: #000045;
+  margin-bottom: clamp(16px, 3vw, 28px);
+  border-left: 5px solid #d5d1cb;
+  padding-left: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -207,25 +241,25 @@ main {
 --------------------------------------------------------------*/
 
 .works_detail {
+  max-width: 900px;
   .title_container {
     padding-bottom: 40px;
     h2 {
-      font-size: 36px;
+      font-size: 24px;
       display: block;
       padding: 0 0 8px 0;
     }
     .date_ad {
       display: block;
-      font-size: 14px;
-      font-weight: 500;
-      color: #8c867e;
+      font-size: 12px;
+      color: #000045;
+      padding: 2px 0 16px;
     }
   }
   .work_img_box {
     display: grid;
     grid-template-columns: 0.9fr;
     row-gap: clamp(24px, 5vw, 64px);
-    max-width: 980px;
     place-content: center;
     img {
       width: 100%;
@@ -262,7 +296,7 @@ main {
       }
     }
   }
-  a {
+  a:not(.tag) {
     text-decoration: underline;
     text-underline-offset: 2px;
   }
@@ -284,6 +318,7 @@ main {
 --------------------------------------------------------------*/
 
 .about_container {
+  max-width: 740px;
   text-align: left;
   h2, h3 {
     display: block;
@@ -343,12 +378,79 @@ main {
 }
 
 footer {
-  color: #333;
+  grid-column: 2;
+  color: #000045;
   line-height: 1.4;
   text-align: center;
   .copyright {
     font-size: 10px;
     font-weight: 500;
     margin: 2vh 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# hamburger / mobile nav
+--------------------------------------------------------------*/
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #000045;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .layout {
+    display: block;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    border-bottom: 1px solid #f0ede8;
+    z-index: 300;
+  }
+  .hamburger {
+    display: flex;
+  }
+  nav {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 56px);
+    background: #fff;
+    padding: 40px 24px;
+    z-index: 200;
+    display: none;
+    margin-top: 0;
+    &.open {
+      display: block;
+    }
+  }
+  main {
+    padding-top: calc(56px + 5vh);
+    padding-bottom: 8vh;
+    padding-inline: 20px;
+  }
+  footer {
+    grid-column: unset;
+  }
+  .container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

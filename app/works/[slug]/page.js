@@ -17,6 +17,13 @@ export default async function WorkPage({ params }) {
         <div className="title_container">
           <h2>{work.title}</h2>
           {work.year && <h3 className="date_ad">{work.year}</h3>}
+          {work.tags && (
+            <div className="work_tags">
+              {work.tags.map(tag => (
+                <Link key={tag} href={`/?tag=${tag}`} className="tag">#{tag}</Link>
+              ))}
+            </div>
+          )}
         </div>
         <div className="work_img_box">
           {work.images.map((img, i) => (

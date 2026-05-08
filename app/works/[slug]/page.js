@@ -25,16 +25,15 @@ export default async function WorkPage({ params }) {
             </div>
           )}
         </div>
-        <div className="work_img_box">
-          {work.images.map((img, i) => (
+        {work.images[0] && (
+          <div className="work_img_box">
             <img
-              key={i}
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${img.src}`}
-              alt={img.alt}
-              className={img.small ? 'img_small' : ''}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${work.images[0].src}`}
+              alt={work.images[0].alt}
+              className={work.images[0].small ? 'img_small' : ''}
             />
-          ))}
-        </div>
+          </div>
+        )}
         <div className="text_container">
           <div className="text_container_column">
             {work.scope && (
@@ -69,6 +68,18 @@ export default async function WorkPage({ params }) {
             ))}
           </div>
         </div>
+        {work.images.length > 1 && (
+          <div className="work_img_box">
+            {work.images.slice(1).map((img, i) => (
+              <img
+                key={i}
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${img.src}`}
+                alt={img.alt}
+                className={img.small ? 'img_small' : ''}
+              />
+            ))}
+          </div>
+        )}
       </section>
       <div className="page_back">
         <Link href="/">← BACK</Link>

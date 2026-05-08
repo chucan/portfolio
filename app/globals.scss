@@ -11,7 +11,7 @@
 body {
   font-family: "Rubik", "Hiragino Sans", "ヒラギノ角ゴシック", sans-serif;
   font-feature-settings: "palt" 1;
-  letter-spacing: .06em;
+  letter-spacing: .08em;
   background-color: #fff;
   font-size: 14px;
 }
@@ -23,7 +23,7 @@ h1,h2,h3,h4,p,span,li {
 
 a {
   cursor: pointer;
-  color: #000045;
+  color: #333333;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -181,7 +181,7 @@ main {
 .work_year {
   display: block;
   font-size: 10px;
-  color: #000045;
+  color: #333333;
   padding: 2px 0;
 }
 
@@ -203,12 +203,12 @@ main {
     transition: background-color 0.15s ease;
     &:hover {
       background-color: #f7f7f7;
-      color: #000045;
+      color: #333333;
       text-decoration: none;
     }
     &.active {
       background-color: #d5d1cb;
-      color: #000045;
+      color: #333333;
       text-decoration: none;
     }
   }
@@ -230,7 +230,7 @@ main {
   display: block;
   font-size: 20px;
   font-weight: 500;
-  color: #000045;
+  color: #333333;
   margin-bottom: clamp(16px, 3vw, 28px);
   border-left: 5px solid #d5d1cb;
   padding-left: 10px;
@@ -252,7 +252,7 @@ main {
     .date_ad {
       display: block;
       font-size: 12px;
-      color: #000045;
+      color: #333333;
       padding: 2px 0 16px;
     }
   }
@@ -379,7 +379,7 @@ main {
 
 footer {
   grid-column: 2;
-  color: #000045;
+  color: #333333;
   line-height: 1.4;
   text-align: center;
   .copyright {
@@ -399,7 +399,7 @@ footer {
   border: none;
   font-size: 20px;
   cursor: pointer;
-  color: #000045;
+  color: #333333;
   width: 40px;
   height: 40px;
   align-items: center;

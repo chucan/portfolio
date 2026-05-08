@@ -369,18 +369,17 @@
     "section": "Freelance",
     "title": "大久保精肉店",
     "category": "Goods",
-    "tags": ["Goods"],
+    "tags": ["Goods", "Print"],
     "thumbnail": "nikuno_ookubo_01.png",
     "year": "2023",
-    "scope": "Goods",
+    "scope": "ステッカーデザイン",
     "client": "大久保精肉店",
     "tool": "Procreate(iPad) , Illustrator",
     "images": [
       { "src": "/img/nikuno_ookubo_02.png", "alt": "大久保精肉店" }
     ],
     "description": [
-      "豊島区雑司ヶ谷にある老舗の精肉店「肉の大久保」のグッズ制作をお手伝いしています。第一弾は、レトロで特徴的な可愛い看板をステッカーにしました。",
-      "スマホケースに入るサイズ感、耐水加工など、ステッカーの紙質にもこだわりました。"
+      "豊島区雑司ヶ谷にある老舗の精肉店「肉の大久保」のグッズ制作をお手伝いしています。"
     ],
     "links": []
   },
@@ -392,18 +391,18 @@
     "tags": ["Logo"],
     "thumbnail": "new_tsukishima_01.png",
     "year": "2021",
-    "scope": "Logo Design",
-    "tool": "Handwriting , Procreate(iPad) , Illustrator",
+    "scope": "ロゴデザイン",
+    "tool": "Procreate(iPad) , Illustrator",
     "images": [
       { "src": "/img/new_tsukishima_01.png", "alt": "ニュー月島" },
       { "src": "/img/new_tsukishima_02.png", "alt": "ニュー月島" },
       { "src": "/img/new_tsukishima_03.png", "alt": "ニュー月島" }
     ],
     "description": [
-      "写真家 KENSUKE HOSOYAさんの屋号である「ニュー月島」のロゴをデザインしました。",
-      "記憶の中のどこかで見かけたような、懐かしい景色を思い出すような、ロマンティックさを彷彿とさせる印象を落とし込みました。KENSUKE HOSOYAさんの世界観に合う配色の提案も行いました。",
-      "オリジナルグッズにもロゴをあしらったデザインで展開されています。",
-      "Photographer / KENSUKE HOSOYA"
+      "写真家KENSUKE HOSOYAさんの屋号「ニュー月島」をデザイン。",
+      "記憶の中のどこかで見かけたような、懐かしい景色を思い出すような、ロマンティックさを彷彿とさせる印象を落とし込みました。",
+      "KENSUKE HOSOYAさんの世界観に合う配色の提案も行いました。",
+      "Photographer：KENSUKEHOSOYA"
     ],
     "links": [
       { "label": "https://new-tsukishima.stores.jp", "url": "https://new-tsukishima.stores.jp" }
@@ -414,10 +413,10 @@
     "section": "Freelance",
     "title": "DAMD",
     "category": "Catalog",
-    "tags": ["Photo"],
+    "tags": ["Print", "Graphic"],
     "thumbnail": "damd_01.png",
-    "year": "2021-2023",
-    "scope": "Catalog Design",
+    "year": "2021",
+    "scope": "ワイヤー作成 , 制作進行管理 , 情報設計 , デザイン",
     "client": "株式会社DAMD",
     "tool": "Illustrator , Photoshop",
     "images": [
@@ -427,8 +426,8 @@
       { "src": "/img/damd_04.png", "alt": "DAMD" }
     ],
     "description": [
-      "自動車パーツメーカー・株式会社DAMDのカタログを情報設計〜デザインしました。",
-      "合計28ページに及ぶ冊子は、ダイナミックな写真を見開きページでレイアウトし、カスタムカーの魅力を伝わりやすいように構成しています。利用シーンを想像しやすくなるよう、季節に合わせ表紙や写真を更新しています。"
+      "自動車パーツメーカー 株式会社DAMDのカタログをデザイン。情報設計からデザインまで担当しています。",
+      "illustration：HAI"
     ],
     "links": []
   },
@@ -439,17 +438,16 @@
     "category": "Illustration",
     "tags": ["Illustration"],
     "thumbnail": "kagyoaid.png",
-    "year": "2021-2022",
-    "scope": "Illustration",
+    "year": "2022",
+    "scope": "イラスト",
     "client": "エヌエヌ生命保険株式会社",
     "tool": "Illustrator , Procreate(iPad)",
     "images": [
       { "src": "/img/kagyoaid.png", "alt": "家業エイド" }
     ],
     "description": [
-      "自分らしい家業との関わり方を実現するための共創プラットフォーム 家業エイドのイラストを制作しました。",
-      "若い家業持ち・後継者をターゲットに、やわらかみのあるイラストやポップなカラーを取り入れています。",
-      "家業や職種により年齢やジェンダーを想起することが多いですが、老若男女様々な方が参加しているプラットフォームのため犬を擬人化して多様性を表現しています。"
+      "自分らしい家業との関わり方を実現するための共創プラットフォーム「家業エイド」のイラストを制作。",
+      "家業や職種によって年齢やジェンダーを想起しがちですが、老若男女様々な方が参加しているプラットフォームであるため、犬を擬人化して多様性を表現しています。"
     ],
     "links": []
   },
@@ -458,11 +456,11 @@
     "section": "Freelance",
     "title": "テト・ペッテンソン",
     "category": "Logo , Illustration , CD jacket , Graphic",
-    "tags": ["Logo", "Illustration", "Graphic"],
+    "tags": ["Logo", "Goods", "Graphic", "Illustration"],
     "thumbnail": "tetopettenson_01.png",
     "year": "2019",
-    "scope": "Logo , Illustration , CD jacket , Graphic",
-    "tool": "Handwriting , Procreate(iPad) , Illustrator",
+    "scope": "ロゴデザイン , CDジャケットデザイン",
+    "tool": "Procreate(iPad) , Illustrator",
     "images": [
       { "src": "/img/tetopettenson_01.png", "alt": "テト・ペッテンソン" },
       { "src": "/img/tetopettenson_03.png", "alt": "テト・ペッテンソン" },
@@ -470,10 +468,8 @@
       { "src": "/img/tetopettenson_05.png", "alt": "テト・ペッテンソン" }
     ],
     "description": [
-      "名古屋を中心に活動するバンド、テト・ペッテンソンの1st EP「期待」のアートワークを全てデザインしました。",
-      "EPタイトルの「期待」している時の心情・感情を、曲線と幾何学的な線で表現しています。",
-      "ロゴをあしらったデザインでオリジナルグッズやMVにも展開されています。",
-      "Photographer / Ryo Adachi（足立涼）"
+      "名古屋を中心に活動するバンド、テト・ペッテンソンの1st EP「期待」のアートワーク、バンドロゴをデザインしました。",
+      "Photographer：RyoAdachi（足立涼）"
     ],
     "links": []
   },
@@ -506,18 +502,17 @@
     "tags": ["Illustration"],
     "thumbnail": "crazywedding_03.png",
     "year": "2021",
-    "scope": "Fabric Design",
+    "scope": "テキスタイルパターン制作",
     "client": "CRAZY WEDDING",
-    "tool": "Handwriting , Procreate(iPad) , Illustrator",
+    "tool": "Procreate(iPad) , Illustrator",
     "images": [
       { "src": "/img/crazywedding_02.png", "alt": "CRAZY WEDDING ui" },
       { "src": "/img/crazywedding_01.png", "alt": "CRAZY WEDDING ui" }
     ],
     "description": [
-      "CRAZY WEDDING ディレクションの結婚式\"ui\"のファブリックのパターンデザインを制作しました。",
-      "コンセプトは\"ui\"（初とYou and I のダブルミーニング）。初めての体験を新郎新婦とゲストを巻き込んでみんなで盛り上がって過ごすための明るい空間演出を目指し、新郎新婦の思い出や記念となるアイテムを幾何学模様に落とし込みました。",
-      "空間に使用した布は後日リメイクされ、参列者にエコバックとして配られました。",
-      "Photographer / 飯倉 孝史 Takafumi Iikura"
+      "CRAZY WEDDINGディレクションの結婚式「ui」の高砂背後にある、ファブリックのパターンデザインを制作。",
+      "ファブリックパターンの布は後日リメイクされ、参列者にエコバックとして配られました。",
+      "Photographer：飯倉孝史TakafumiIikura"
     ],
     "links": [
       { "label": "CRAZY WEDDING \"ui\" CASE紹介記事", "url": "https://www.crazy.co.jp/wedding/case/446" }

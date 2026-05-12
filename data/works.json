@@ -11,7 +11,7 @@
     "tool": "Illustrator , Photoshop , AfterEffect , GitHub , Figma , Webflow , STUDIO etc...",
     "images": [
       { "src": "/img/stores_01.png", "alt": "STORES" },
-      { "src": "/img/stores_02.png", "alt": "STORES",  "caption": "Figmaでデザインし、コーディングしデリバリーするところまで一貫して担当。" },
+      { "src": "/img/stores_02.png", "alt": "STORES", "caption": "Figmaでデザインし、コーディングしデリバリーするところまで一貫して担当。" },
       { "src": "/img/stores_03.png", "alt": "STORES", "caption": "写真撮影時のロケハン、衣装選定、香盤制作、レタッチも担当。" },
       { "src": "/img/stores_04.png", "alt": "STORES", "caption": "サービスサイト内で使用するイラストも担当。" }
     ],
@@ -76,11 +76,16 @@
     "title": "STORES 紹介チラシ・冊子",
     "category": "Print , Illustration",
     "tags": ["Print", "Illustration"],
-    "thumbnail": "",
+    "thumbnail": "stores_print_01.png",
     "year": "2018-2024",
     "scope": "デザイン , 掲載ショップの許諾連絡 , イラスト",
     "tool": "Illustrator , Photoshop , Procreate(iPad)",
-    "images": [],
+    "images": [
+      { "src": "/img/stores_print_01.png", "alt": "STORES 紹介チラシ・冊子", "caption": "Figmaでデザインし、コーディングしデリバリーするところまで一貫して担当。" },
+      { "src": "/img/stores_print_02.png", "alt": "STORES 紹介チラシ・冊子", "caption": "CM放映開始に合わせたキャンペーン案内リーフレット" },
+      { "src": "/img/stores_print_03.png", "alt": "STORES 紹介チラシ・冊子", "caption": "ECサービス紹介リーフレット" },
+      { "src": "/img/stores_print_04.png", "alt": "STORES 紹介チラシ・冊子", "caption": "冊子のイラストレーション部分のみ担当しています。design：Kazuya Kakuta" }
+    ],
     "description": [
       "展示会・イベント向けリーフレットのデザインを制作。"
     ],
@@ -92,12 +97,14 @@
     "title": "STORES ダイバーシティ",
     "category": "Graphic",
     "tags": ["Graphic", "Illustration"],
-    "thumbnail": "stores_diversity.png",
+    "thumbnail": "stores_diversity_01.png",
     "year": "2022-2024",
-    "scope": "ビジュアルコンセプト , レポートデザイン , イラスト",
+    "scope": "ビジュアルコンセプト , レポート資料デザイン , イラスト",
     "tool": "Illustrator , Figma , Procreate(iPad) , Webflow",
     "images": [
-      { "src": "/img/stores_diversity.png", "alt": "STORES ダイバーシティ" }
+      { "src": "/img/stores_diversity_01.png", "alt": "STORES ダイバーシティ" },
+      { "src": "/img/stores_diversity_02.png", "alt": "STORES ダイバーシティ" },
+      { "src": "/img/stores_diversity_03.png", "alt": "STORES ダイバーシティ", "caption": "多様性を表現するビジュアルは大変難航しましたが、無機質な石や水のようにも見えるマテリアルをイメージしたデザインで表現。「どんなものでも磨いたら輝く」をコンセプトにビジュアルを展開しています。"  }
     ],
     "description": [
       "STORES ダイバーシティのデザインを担当。",
@@ -137,13 +144,15 @@
     "title": "hey, inc. オフサイトイベント",
     "category": "Graphic , Illustration , Goods , Animation",
     "tags": ["Graphic", "Illustration", "Goods", "Animation"],
-    "thumbnail": "hey_allstarhey.png",
+    "thumbnail": "hey_allstarhey_01.png",
     "year": "2021",
     "scope": "ビジュアルデザイン , アニメーション , ノベルティ",
     "tool": "Illustrator , Photoshop , AfterEffects , Procreate(iPad)",
     "images": [
-      { "src": "/img/hey_allstarhey.png", "alt": "hey, inc. オフサイトイベント" },
-      { "src": "/img/hey_allstarhey_animation.gif", "alt": "hey, inc. オフサイトイベント", "small": true }
+      { "src": "/img/hey_allstarhey_01.png", "alt": "hey, inc. オフサイトイベント", "caption": "heyの多様でユニークなメンバーをイメージしたキャラクターたちが、共に同じ方向を向き歩んでいく姿をビジュアル化しています。" },
+      { "src": "/img/hey_allstarhey_02.png", "alt": "hey, inc. オフサイトイベント"},
+      { "src": "/img/hey_allstarhey.gif", "alt": "hey, inc. オフサイトイベント", "caption": "歩く足のカタチはheyロゴから着想を得て制作しています。", "small": true},
+      { "src": "/img/hey_allstarhey_03.png", "alt": "hey, inc. オフサイトイベント", "caption": "コロナ禍でオンライン開催となったため、参加者の全社員にギフトボックスをう郵送。段ボール箱のデザインも担当。" }
     ],
     "description": [
       "フルオンラインで開催された自社のオフサイト（バリュー策定ワークショップ）「オールスターヘイ」のビジュアルを制作。"
@@ -161,7 +170,6 @@
     "scope": "Illustration , テキスタイル",
     "tool": "Illustrator , Procreate(iPad)",
     "images": [
-      { "src": "/img/hey_aloha_01.png", "alt": "hey, inc. アロハシャツ" },
       { "src": "/img/hey_aloha_02.png", "alt": "hey, inc. アロハシャツ" },
       { "src": "/img/hey_aloha_03.png", "alt": "hey, inc. アロハシャツ" }
     ],
@@ -180,14 +188,14 @@
     "title": "hey, inc.",
     "category": "Logo , illustration",
     "tags": ["Logo", "Illustration", "Goods", "CI", "Branding", "Graphic"],
-    "thumbnail": "hey_01.png",
+    "thumbnail": "hey_logo_01.png",
     "year": "2018-2022",
     "scope": "CI , イラスト , キャラクターデザイン , ノベルティ、アパレル制作",
     "tool": "Illustrator , Figma , Procreate(iPad)",
     "images": [
       { "src": "/img/hey_logo_01.png", "alt": "hey, inc." },
-      { "src": "/img/hey_logo_02.png", "alt": "hey, inc." },
-      { "src": "/img/hellohey.gif", "alt": "hey, inc." }
+      { "src": "/img/hey_logo_hellohey.gif", "alt": "hey, inc.", "caption": "採用イベントのビジュアル制作"},
+      { "src": "/img/hey_logo_04.png", "alt": "hey, inc.", "caption": "1周年記念のノベルティイラスト"}
     ],
     "description": [
       "CoineyとSTORES.jpの経営統合によって設立された「hey」のCIデザイン制作を担当しました。",
@@ -196,128 +204,6 @@
     "links": [
       { "label": "CIを共作したデザイナー松本の記事はこちら", "url": "https://note.com/stam_mat2/n/n5282047afb1d" }
     ]
-  },
-  {
-    "slug": "stores-feature",
-    "section": "STORES, inc.",
-    "title": "STORES 機能紹介",
-    "category": "Graphic , Animation",
-    "tags": ["Graphic", "Animation"],
-    "thumbnail": "",
-    "year": "2019-2020",
-    "scope": "ビジュアル制作 , アニメーション制作 , メルマガ制作",
-    "tool": "Illustrator , Photoshop , AfterEffect , Mailchimp , Sendgrid",
-    "images": [],
-    "description": [
-      "STORES ネットショップの機能リリースお知らせアニメーションを制作。"
-    ],
-    "links": []
-  },
-  {
-    "slug": "storesjp-corporate",
-    "section": "STORES, inc.",
-    "title": "STORES.jp Corporate site",
-    "category": "Web , Illustration",
-    "tags": ["Web", "Illustration"],
-    "thumbnail": "storesjp_corporate_01.png",
-    "year": "2018-2022",
-    "scope": "WEBデザイン , イラストレーション , コーディング , 更新・運用",
-    "tool": "Illustrator , GitHub(HTML/CSS)",
-    "images": [
-      { "src": "/img/storesjp_corporate_04.png", "alt": "STORES.jp Corporate site" },
-      { "src": "/img/storesjp_corporate_03.png", "alt": "STORES.jp Corporate site" }
-    ],
-    "description": [
-      "自社「STORES.jp」のコーポレートサイトをデザインしました。",
-      "社内に動物モチーフのインテリアが多く、代表が動物好きであることから、動物を散りばめたデザインにしています。NEWSページの運用・更新も行っていました。",
-      "（会社統合により現在は閉鎖）"
-    ],
-    "links": []
-  },
-  {
-    "slug": "sauna-harajuku",
-    "section": "STORES, inc.",
-    "title": "サウ〜ナ原宿 @ラフォーレ原宿",
-    "category": "Illustration , Graphic",
-    "tags": ["Illustration", "Graphic"],
-    "thumbnail": "Laforet_HARAJUKU_sauna_01.png",
-    "year": "2021",
-    "scope": "Illustration , Graphic",
-    "tool": "Procreate(iPad) , Illustrator",
-    "images": [
-      { "src": "/img/Laforet_HARAJUKU_sauna_01.png", "alt": "サウ〜ナ原宿 @ラフォーレ原宿" },
-      { "src": "/img/Laforet_HARAJUKU_sauna_02.png", "alt": "サウ〜ナ原宿 @ラフォーレ原宿" }
-    ],
-    "description": [
-      "ラフォーレ原宿2F WHITE GALLERYにて開催した「サウ〜ナ原宿」のビジュアルとイラストを制作しました。",
-      "サウナでほぐされ癒されている人たちを描きました。"
-    ],
-    "links": []
-  },
-  {
-    "slug": "kojimasan-goods",
-    "section": "STORES, inc.",
-    "title": "アンジャッシュ児嶋さん オンラインストア",
-    "category": "Goods , EC",
-    "tags": ["Goods", "EC", "Illustration", "Web"],
-    "thumbnail": "kojimasan_goods_03.png",
-    "year": "2022",
-    "scope": "オンラインストア制作 , グッズデザイン",
-    "tool": "Illustrator , Photoshop",
-    "images": [
-      { "src": "/img/kojimasan_goods_01.png", "alt": "児嶋さん オンラインストア" },
-      { "src": "/img/kojimasan_goods_02.png", "alt": "児嶋さん オンラインストア" }
-    ],
-    "description": [
-      "アンジャッシュ児嶋さんのグッズ・ECを制作。",
-      "YouTubeチャンネル名の「だよっ！」をモチーフに、ストアデザインからグッズのデザイン監修まで一貫して行っています。",
-      "（現在オンラインストアは閉鎖中）"
-    ],
-    "links": [
-      { "label": "児嶋さんのYouTube", "url": "https://www.youtube.com/watch?v=H-LDveWgTHo" }
-    ]
-  },
-  {
-    "slug": "kamaitachi-hey-goods",
-    "section": "STORES, inc.",
-    "title": "TBSラジオ「かまいたちのヘイ！タクシー！」×heyコラボ オンラインストア",
-    "category": "Goods , EC",
-    "tags": ["Goods", "Illustration", "Web"],
-    "thumbnail": "kamaitachi_hey_goods_03.png",
-    "year": "2021",
-    "scope": "オンラインストア作成 , グッズ制作・監修 , イラスト , 写真レタッチ",
-    "tool": "Illustrator , Photoshop , Procreate(iPad)",
-    "images": [
-      { "src": "/img/kamaitachi_hey_goods_01.png", "alt": "TBSラジオ「かまいたちのヘイ！タクシー！」×heyコラボ" },
-      { "src": "/img/kamaitachi_hey_goods_02.png", "alt": "TBSラジオ「かまいたちのヘイ！タクシー！」×heyコラボ" }
-    ],
-    "description": [
-      "TBSラジオ「かまいたちのヘイ！タクシー！」とコラボレーションしたオンラインストア・グッズのデザインを担当。",
-      "（現在オンラインストアは閉鎖中）"
-    ],
-    "links": [
-      { "label": "https://www.tbsradio.jp/articles/986/", "url": "https://www.tbsradio.jp/articles/986/" },
-      { "label": "https://kamataku.stores.jp/", "url": "https://kamataku.stores.jp/" },
-      { "label": "https://prtimes.jp/main/html/rd/p/000000069.000031376.html", "url": "https://prtimes.jp/main/html/rd/p/000000069.000031376.html" }
-    ]
-  },
-  {
-    "slug": "stores-tvcm",
-    "section": "STORES, inc.",
-    "title": "STORES TVCM企画",
-    "category": "EC , Goods",
-    "tags": ["EC", "Goods"],
-    "thumbnail": "",
-    "year": "2020",
-    "scope": "オンラインストア制作 , グッズ , 写真素材撮影、レタッチ , 広告バナーデザイン",
-    "tool": "Illustrator , Photoshop",
-    "images": [],
-    "description": [
-      "STORES 初のTVCM記念で「OKAMOTO'S×長場雄さん」「CHAI×白根ゆたんぽさん」のストアデザインとグッズデザインを担当。",
-      "（現在オンラインストアは閉鎖中）",
-      "SNS用のバナー制作も行いました。TVCM内で紹介されるサンプルストアの制作・素材撮影も担当しています。"
-    ],
-    "links": []
   },
   {
     "slug": "hey-character",
@@ -340,29 +226,137 @@
     "links": []
   },
   {
-    "slug": "stores-old",
+    "slug": "stores-feature",
     "section": "STORES, inc.",
-    "title": "STORES.jp",
-    "category": "Web , Branding",
-    "tags": ["Web", "Branding"],
-    "thumbnail": "storesjp_spice_01.png",
-    "year": "2019",
-    "scope": "Web , Direction , Branding , Coding etc...",
-    "tool": "Figma , Illustrator , Photoshop , After Effects",
+    "title": "STORES 機能紹介",
+    "category": "Graphic , Animation",
+    "tags": ["Graphic", "Animation"],
+    "thumbnail": "stores_animation_01.gif",
+    "year": "2019-2020",
+    "scope": "ビジュアル制作 , アニメーション制作 , メルマガ制作",
+    "tool": "Illustrator , Photoshop , AfterEffect , Mailchimp , Sendgrid",
     "images": [
-      { "src": "/img/storesjp_spice_01.png", "alt": "STORES.jp" },
-      { "src": "/img/storesjp_spice_02.png", "alt": "STORES.jp" },
-      { "src": "/img/storesjp_spice_03.png", "alt": "STORES.jp" },
-      { "src": "/img/storesjp_spice_04.png", "alt": "STORES.jp" }
+      { "src": "/img/stores_animation_01.gif", "alt": "STORES 機能紹介", "caption": "送り状CSV出力（ヤマトB2クラウド）リリース時のアニメーション"},
+      { "src": "/img/stores_animation_02.gif", "alt": "STORES 機能紹介", "caption": "ステータス一括変換リリース時のアニメーション"},
+      { "src": "/img/stores_animation_03.gif", "alt": "STORES 機能紹介", "caption": "在庫数一括更新機能リリース時のアニメーション"},
+      { "src": "/img/stores_animation_04.png", "alt": "STORES 機能紹介", "caption": "主にメールマガジンや、管理画面のお知らせなどで活用。メールマガジンのデザインも制作しています。"}
     ],
     "description": [
-      "誰でもかんたんにオンラインストアがつくれる「STORES.jp」のリブランディングを行いました。",
-      "サービスサイトのWEBデザインを中心に、フォントの選定、ビジュアルの作成、ブランディングを構築していきました。",
-      "商売の主役はショップオーナーであり、STORES.jpはその個性を引き立てる・魅力を最大化する思いを込めて、スパイスをテーマにしたパターンをデザインしました。（それぞれのパターンに香辛料の名前がついています）。STORES.jpらしい楽しさの象徴として、ブランドが目指す新しい世界観を導いています。"
+      "STORES ネットショップの機能リリースお知らせアニメーションを制作。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "storesjp-corporate",
+    "section": "STORES, inc.",
+    "title": "STORES.jp Corporate site",
+    "category": "Web , Illustration",
+    "tags": ["Web", "Illustration"],
+    "thumbnail": "storesjp_corporate_01.png",
+    "year": "2018-2022",
+    "scope": "WEBデザイン , イラストレーション , コーディング , 更新・運用",
+    "tool": "Illustrator , GitHub(HTML/CSS)",
+    "images": [
+      { "src": "/img/storesjp_corporate_01.png", "alt": "STORES.jp Corporate site" },
+      { "src": "/img/storesjp_corporate_02.png", "alt": "STORES.jp Corporate site" },
+      { "src": "/img/storesjp_corporate_03.png", "alt": "STORES.jp Corporate site" }
+    ],
+    "description": [
+      "「STORES.jp」のコーポレートサイトをデザインしました。",
+      "社内に動物モチーフのインテリアが多く、代表が動物好きであることから、動物を散りばめたデザインにしています。",
+      "サイト全体の運用・更新も行っていました。",
+      "（会社統合により現在Webサイトは閉鎖）"
+    ],
+    "links": []
+  },
+  {
+    "slug": "sauna-harajuku",
+    "section": "STORES, inc.",
+    "title": "サウ〜ナ原宿 @ラフォーレ原宿",
+    "category": "Illustration , Graphic",
+    "tags": ["Illustration", "Graphic"],
+    "thumbnail": "Laforet_HARAJUKU_sauna_01.png",
+    "year": "2019",
+    "scope": "ビジュアル作成 , イラスト",
+    "tool": "Procreate(iPad) , Illustrator",
+    "images": [
+      { "src": "/img/Laforet_HARAJUKU_sauna_01.png", "alt": "サウ〜ナ原宿 @ラフォーレ原宿" },
+      { "src": "/img/Laforet_HARAJUKU_sauna_02.png", "alt": "サウ〜ナ原宿 @ラフォーレ原宿" }
+    ],
+    "description": [
+      "ラフォーレ原宿2F WHITE GALLERYにて開催した「サウ〜ナ原宿」のビジュアルとイラストを制作しました。",
+      "サウナでほぐされ癒されている人たちを描きました。"
+    ],
+    "links": []
+  },
+  {
+    "slug": "kojimasan-goods",
+    "section": "STORES, inc.",
+    "title": "アンジャッシュ児嶋さん オンラインストア",
+    "category": "Goods , EC",
+    "tags": ["Goods", "EC", "Illustration", "Web"],
+    "thumbnail": "kojimasan_goods_04_1.png",
+    "year": "2022",
+    "scope": "オンラインストア制作 , グッズデザイン",
+    "tool": "Illustrator , Photoshop",
+    "images": [
+      { "src": "/img/kojimasan_goods_04_1.png", "alt": "児嶋さん オンラインストア" },
+      { "src": "/img/kojimasan_goods_05.png", "alt": "児嶋さん オンラインストア", "caption": "多様なオノマトペで児嶋さんの持ちネタ「だよっ！」を表現"},
+      { "src": "/img/kojimasan_goods_06.png", "alt": "児嶋さん オンラインストア" },
+      { "src": "/img/kojimasan_goods_07.png", "alt": "児嶋さん オンラインストア" }
+    ],
+    "description": [
+      "アンジャッシュ児嶋さんのグッズ・ECを制作。（受注生産・期間限定のため、現在オンラインストアは閉鎖中）",
+      "YouTubeチャンネル名の「だよっ！」をモチーフに、ストアデザインからグッズのデザイン監修まで一貫して行っています。",
+      "児嶋さんのYouTubeでも紹介されています。"
     ],
     "links": [
-      { "label": "「STORES.jp」がサービスサイトのリニューアルを実施 リブランディングプロジェクト第一弾（AXIS掲載）", "url": "https://www.axismag.jp/posts/2019/07/139232.html" }
+      { "label": "児嶋さんのYouTube", "url": "https://www.youtube.com/watch?v=H-LDveWgTHo" }
     ]
+  },
+  {
+    "slug": "kamaitachi-hey-goods",
+    "section": "STORES, inc.",
+    "title": "TBSラジオ「かまいたちのヘイ！タクシー！」×heyコラボ オンラインストア",
+    "category": "Goods , EC",
+    "tags": ["Goods", "Illustration", "Web"],
+    "thumbnail": "kamaitachi_hey_goods_03.png",
+    "year": "2021",
+    "scope": "オンラインストア作成 , グッズ制作・監修 , イラスト , 写真レタッチ",
+    "tool": "Illustrator , Photoshop , Procreate(iPad)",
+    "images": [
+      { "src": "/img/kamaitachi_hey_goods_01.png", "alt": "TBSラジオ「かまいたちのヘイ！タクシー！」×heyコラボ" },
+      { "src": "/img/kamaitachi_hey_goods_02.png", "alt": "TBSラジオ「かまいたちのヘイ！タクシー！」×heyコラボ" }
+    ],
+    "description": [
+      "TBSラジオ「かまいたちのヘイ！タクシー！」とコラボレーションしたオンラインストア・グッズのデザインを担当。（期間限定販売のため、現在オンラインストアは閉鎖中）"
+    ],
+    "links": [
+      { "label": "https://www.tbsradio.jp/articles/986/", "url": "https://www.tbsradio.jp/articles/986/" },
+      { "label": "https://kamataku.stores.jp/", "url": "https://kamataku.stores.jp/" },
+      { "label": "https://prtimes.jp/main/html/rd/p/000000059.000031375.html", "url": "https://prtimes.jp/main/html/rd/p/000000059.000031375.html" }
+    ]
+  },
+  {
+    "slug": "stores-tvcm",
+    "section": "STORES, inc.",
+    "title": "STORES TVCM企画",
+    "category": "EC , Goods",
+    "tags": ["EC", "Goods"],
+    "thumbnail": "stores_tvcm_01.png",
+    "year": "2020",
+    "scope": "オンラインストア制作 , グッズ , 写真素材撮影、レタッチ , 広告バナーデザイン",
+    "tool": "Illustrator , Photoshop",
+    "images": [
+      { "src": "/img/stores_tvcm_01.png", "alt": "STORES TVCM企画" },
+      { "src": "/img/stores_tvcm_02.png", "alt": "STORES TVCM企画" }
+    ],
+    "description": [
+      "STORES 初のTVCM記念で「OKAMOTO'S×長場雄さん」「CHAI×白根ゆたんぽさん」のストアデザインとグッズデザインを担当。",
+      "（現在オンラインストアは閉鎖中）",
+      "SNS用のバナー制作も行いました。TVCM内で紹介されるサンプルストアの制作・素材撮影も担当しています。"
+    ],
+    "links": []
   },
   {
     "slug": "nikino-ookubo",
@@ -372,8 +366,8 @@
     "tags": ["Goods", "Print"],
     "thumbnail": "nikuno_ookubo_01.png",
     "year": "2023",
-    "scope": "ステッカーデザイン",
     "client": "大久保精肉店",
+    "scope": "ステッカーデザイン",
     "tool": "Procreate(iPad) , Illustrator",
     "images": [
       { "src": "/img/nikuno_ookubo_02.png", "alt": "大久保精肉店" }
@@ -400,8 +394,7 @@
     ],
     "description": [
       "写真家KENSUKE HOSOYAさんの屋号「ニュー月島」をデザイン。",
-      "記憶の中のどこかで見かけたような、懐かしい景色を思い出すような、ロマンティックさを彷彿とさせる印象を落とし込みました。",
-      "KENSUKE HOSOYAさんの世界観に合う配色の提案も行いました。",
+      "記憶の中のどこかで見かけたような、懐かしい景色を思い出すような、ロマンティックさを彷彿とさせる印象を落とし込みました。KENSUKE HOSOYAさんの世界観に合う配色の提案。",
       "Photographer：KENSUKEHOSOYA"
     ],
     "links": [
@@ -416,8 +409,8 @@
     "tags": ["Print", "Graphic"],
     "thumbnail": "damd_01.png",
     "year": "2021",
-    "scope": "ワイヤー作成 , 制作進行管理 , 情報設計 , デザイン",
     "client": "株式会社DAMD",
+    "scope": "ワイヤー作成 , 制作進行管理 , 情報設計 , デザイン",
     "tool": "Illustrator , Photoshop",
     "images": [
       { "src": "/img/damd_01.png", "alt": "DAMD" },
@@ -439,8 +432,8 @@
     "tags": ["Illustration"],
     "thumbnail": "kagyoaid.png",
     "year": "2022",
-    "scope": "イラスト",
     "client": "エヌエヌ生命保険株式会社",
+    "scope": "イラスト",
     "tool": "Illustrator , Procreate(iPad)",
     "images": [
       { "src": "/img/kagyoaid.png", "alt": "家業エイド" }
@@ -502,8 +495,8 @@
     "tags": ["Illustration"],
     "thumbnail": "crazywedding_03.png",
     "year": "2021",
-    "scope": "テキスタイルパターン制作",
     "client": "CRAZY WEDDING",
+    "scope": "テキスタイルパターン制作",
     "tool": "Procreate(iPad) , Illustrator",
     "images": [
       { "src": "/img/crazywedding_02.png", "alt": "CRAZY WEDDING ui" },

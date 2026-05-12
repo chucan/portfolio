@@ -25,6 +25,9 @@ export default function Nav() {
             WORKS
           </Link>
           <div className="nav_sub">
+            <Link href="/?section=righttouch" className={currentSection === 'righttouch' ? 'select' : ''} onClick={close}>
+              RightTouch inc.
+            </Link>
             <Link href="/?section=stores" className={currentSection === 'stores' ? 'select' : ''} onClick={close}>
               STORES, inc.
             </Link>

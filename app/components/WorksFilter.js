@@ -5,6 +5,7 @@ import { useSearchParams, useRouter } from 'next/navigation'
 
 const SECTION_MAP = {
   'stores': 'STORES, inc.',
+  'righttouch': 'RightTouch inc.',
   'freelance': 'Freelance',
 }
 

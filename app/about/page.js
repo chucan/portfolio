@@ -29,7 +29,7 @@ export default function About() {
 
       <section>
         <h3>What I Can Do</h3>
-        <p>Graphic Design / Illustration / Logo Design / Web Design / Coding / Art Direction / Gif Animation / Character Design etc...</p>
+        <p>Graphic Design / Illustration / Logo Design / Web Design / Art Direction / Gif Animation / Character Design etc...</p>
       </section>
 
       <section>
@@ -37,26 +37,23 @@ export default function About() {
         <p>Illustrator / Photoshop / Figma / Procreate / After Effects / Adobe Fresco / html&amp;css etc...</p>
       </section>
 
-      <section>
-        <h3>LOVE</h3>
-        <p>睡眠 / 原田治 / 文房具 / マンガ（全般） / 革細工 / 伝統工芸 / 温泉・銭湯 / Splatoon</p>
-        <p className="small">sleep / OSAMU GOODS / stationery / comics / leather / Japanese traditional crafts / onsen / Splatoon</p>
-      </section>
 
       <section>
         <h3>Interview</h3>
         <ul>
-          <li><time>2022.03</time><a href="https://design.hey.jp/genba-eps9/" target="_blank" rel="noopener noreferrer">ヘイがつくるグッズ（🎧Podcast）</a></li>
+          <li><time>2025.10</time><a href="https://note.righttouch.co.jp/n/n929c20cc3bff" target="_blank" rel="noopener noreferrer">「伝える」から「伝わる」へ。多様な視点と言語化力を大切に価値を届ける、一人目コミュニケーションデザイナーの仕事術</a></li>
+          <li><time>2022.03</time><p>ヘイがつくるグッズ（🎧Podcast） ※公開終了</p></li>
           <li><time>2021.10</time><a href="https://www.asahi.com/articles/ASPBC6RCWP9WTLTB001.html" target="_blank" rel="noopener noreferrer">朝日新聞 屋久島写真コンテスト2021</a></li>
           <li><time>2020.10</time><a href="https://people.st.inc/n/n69b9a7f30e7d" target="_blank" rel="noopener noreferrer">STORESのデザイナーとしてクリエイターの方をサポートすること</a></li>
           <li><time>2019.10</time><a href="https://www.wantedly.com/companies/stinc/post_articles/192167" target="_blank" rel="noopener noreferrer">ユーザーさんに貢献できるのが醍醐味。STORESのデザイナーというしごと</a></li>
-          <li><time>2019.02</time><a href="https://heymag.st.inc/01/hey-days/tukitumeta-kodawariai/" target="_blank" rel="noopener noreferrer">突き詰めた こだわりを愛してる。STORES.jpのギークな趣味本</a></li>
+          <li><time>2019.02</time><p>突き詰めた こだわりを愛してる。STORES.jpのギークな趣味本 ※公開終了</p></li>
         </ul>
       </section>
 
       <section>
         <h3>Speaking on stage</h3>
         <ul>
+          <li><time>2025.09</time>もがく中堅デザイナー、時間との向き合い方</li>
           <li><time>2023.10</time>Communication Design Night vol.1「ノベルティを囲み、語る夜。」</li>
           <li><time>2018.07</time>hey designers night Vol.1「100人のためのデザイン、 1億人のためのデザイン。」</li>
         </ul>

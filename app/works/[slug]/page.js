@@ -39,7 +39,11 @@ export default async function WorkPage({ params }) {
             {work.scope && (
               <>
                 <h3>SCOPE</h3>
-                <p>{work.scope}</p>
+                <ul>
+                  {work.scope.split(' , ').map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
               </>
             )}
             {work.client && (
@@ -50,12 +54,16 @@ export default async function WorkPage({ params }) {
             )}
             {work.tool && (
               <>
-                <h3>Tool</h3>
-                <p>{work.tool}</p>
+                <h3>TOOL</h3>
+                <ul>
+                  {work.tool.split(' , ').map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
               </>
             )}
           </div>
-          <div className="text_container_column">
+          <div className="text_container_column text_container_column--wide">
             {work.description.map((para, i) => (
               <p key={i}>{para}</p>
             ))}
@@ -71,12 +79,13 @@ export default async function WorkPage({ params }) {
         {work.images.length > 1 && (
           <div className="work_img_box">
             {work.images.slice(1).map((img, i) => (
-              <img
-                key={i}
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${img.src}`}
-                alt={img.alt}
-                className={img.small ? 'img_small' : ''}
-              />
+              <figure key={i} className={img.small ? 'img_small' : ''}>
+                <img
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${img.src}`}
+                  alt={img.alt}
+                />
+                {img.caption && <figcaption>{img.caption}</figcaption>}
+              </figure>
             ))}
           </div>
         )}

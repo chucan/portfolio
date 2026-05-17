@@ -1,5 +1,30 @@
 [
   {
+    "slug": "righttouch-thanks-day-2025",
+    "section": "RightTouch inc.",
+    "title": "Thanks Day 2025",
+    "category": "Graphic , Goods , Print",
+    "tags": ["Graphic", "Goods", "Print"],
+    "thumbnail": "RT_thanksday_01.png",
+    "year": "2025",
+    "scope": "イベント運営・企画 , キービジュアル コンセプト立案・デザイン , 空間デザイン , スタッフ衣装デザイン , ノベルティや手土産など",
+    "tool": "Illustrator , Figma",
+    "images": [
+      { "src": "/img/RT_thanksday_05.png", "alt": "Thanks Day 2025", "small": true },
+      { "src": "/img/RT_thanksday_02.png", "alt": "Thanks Day 2025", "caption": "来場者へ配布した会場パンフレットを制作。タイムテーブル、会場マップの他に、フリータイムで楽しんでもらうシールスタンプラリーも用意。" },
+      { "src": "/img/RT_thanksday_03.png", "alt": "Thanks Day 2025", "caption": "スタッフ着用のシャツを用意。スカーフの巻き方は指定せず、首に巻いたり、腰から下げたり、ヘアバンド等、各自自由に着用してもらいました。同じ巻き方でもスカーフの折る向きを変えると色味が変わるので、個性が出て好評でした。" },
+      { "src": "/img/RT_thanksday_04.png", "alt": "Thanks Day 2025", "caption": "会場装飾（リハーサル風景）" },
+      { "src": "/img/RT_thanksday_06.png", "alt": "Thanks Day 2025", "caption": "左：会場装飾イメージ／右：ステージの転換イメージのメモ" }
+    ],
+    "description": [
+      "RightTouchが年に一度主催する、ユーザー・パートナー向けイベント「Thanks Day」のデザイン全般を担当。主に来場者との接点となるあらゆるコミュニケーションデザインに携わりました。",
+      "イベントの世界観を構築するキービジュアルのコンセプト立案・制作を起点に、会場内の制作物デザイン全般、ホワイエ空間の企画・設計、投影映像の制作、ノベルティ・お土産の制作まで、トータルで手がけました。",
+      "単なるビジュアル制作にとどまらず、来場者がイベントを通じてRightTouchの想いを体感できるよう、また同社が提供するプロダクト「QANT」のリブランディング直後というタイミングを踏まえ、体験設計の視点からデザインに取り組みました。",
+      "Thanks DayのKVは「Prism」をコンセプトに、1本の光がプリズム（＝今回はQANTのこと）を通ることで、多様な色へと分かれ、広がっていくように、QANTというブランドの立ち上がり・スタート地点としての「今」と、そこから多方向へと広がる未来への兆しを込めました。","リブランディングをただの変化や転換点ではなく、新たな広がりの始まりを予期させ、感じさせる表現を目指してデザインし、これまでのKARTEシリーズのグリーン、QANTのブルー、RightTouchのコーポレートロゴのレッド、それぞれを織り込みながら、調和するように考えていきました。"
+    ],
+    "links": []
+  },
+  {
     "slug": "stores",
     "section": "STORES, inc.",
     "title": "STORES サービスサイト",

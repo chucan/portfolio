@@ -74,7 +74,11 @@ export default async function WorkPage({ params }) {
           </div>
           <div className="text_container_column text_container_column--wide">
             {work.description.map((para, i) => (
-              <p key={i}>{para}</p>
+              <p key={i}>
+                {para.split('\n').map((line, j, arr) => (
+                  <span key={j}>{line}{j < arr.length - 1 && <br />}</span>
+                ))}
+              </p>
             ))}
             {!work.embed && work.links && work.links.map((link, i) => (
               <p key={i}>
@@ -93,7 +97,14 @@ export default async function WorkPage({ params }) {
                   src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${img.src}`}
                   alt={img.alt}
                 />
-                {img.caption && <figcaption>{img.caption}</figcaption>}
+                {img.caption && (
+                  <figcaption>
+                    {img.caption}
+                    {img.captionLink && (
+                      <> <a href={img.captionLink} target="_blank" rel="noopener noreferrer">{img.captionLink}</a></>
+                    )}
+                  </figcaption>
+                )}
               </figure>
             ))}
           </div>

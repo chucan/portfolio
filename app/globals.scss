@@ -322,6 +322,7 @@ main {
           padding-bottom: 2px;
           &::before {
             content: '・';
+            padding-right: 4px;
           }
         }
       }

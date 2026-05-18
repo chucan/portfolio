@@ -327,6 +327,13 @@ main {
       }
     }
   }
+  .embed_container {
+    margin-bottom: 24px;
+    iframe {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
   a:not(.tag) {
     text-decoration: underline;
     text-underline-offset: 2px;

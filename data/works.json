@@ -1,5 +1,48 @@
 [
   {
+    "slug": "righttouch-qant",
+    "section": "RightTouch inc.",
+    "title": "QANT",
+    "category": "Graphic , Illustration , Branding , Web",
+    "tags": ["Graphic", "Illustration", "Branding", "Web"],
+    "thumbnail": "RT_qant_01.png",
+    "year": "2025 -",
+    "scope": "ブランドビジュアル展開・ディレクション , Webサイトキービジュアル制作・全体ディレクション , 各種制作物デザイン（イベント素材、営業資料など） , プロダクトロゴ展開 , ブランドガイドライン策定 , イラスト etc...",
+    "tool": "Illustrator , Figma",
+    "images": [
+      { "src": "/img/RT_qant_01.png", "alt": "QANT" },
+      { "src": "/img/RT_qant_02.png", "alt": "QANT", "caption": "プロダクトロゴ展開" },
+      { "src": "/img/RT_qant_03.png", "alt": "QANT", "caption": "ブランドメッセージを伝えるためのWebページディレクション" },
+      { "src": "/img/RT_qant_04.png", "alt": "QANT", "caption": "印刷物・オフラインイベントグッズへのVI展開" },
+      { "src": "/img/RT_qant_05.png", "alt": "QANT", "caption": "記念ノベルティ　アイシングクッキー" },
+      { "src": "/img/RT_qant_06.png", "alt": "QANT", "caption": "展示会ブース設計・デザイン" }
+    ],
+    "description": [
+      "ブランド名・メインロゴ・方向性が決まった状態から入社し、それをいかに顧客接点と組織全体に広げていくかをミッションとして、「QANTらしさ」を探るプロセスを重ねていきました。Webサイトのキービジュアルや営業資料・イベント素材など各種制作物へのビジュアル展開を担いつつ、サブブランドの命名構造や表記ルールの策定にも関与しました。",
+      "ブランド表現を型化させず、展開場所やイベントの雰囲気に合わせて柔軟に「らしく」あることを優先する姿勢で、ガイドライン策定から社内浸透まで一貫して関わりました。"
+    ],
+    "links": [
+      { "label": "https://intro.qant.jp/", "url": "https://intro.qant.jp/" }
+    ]
+  },
+  {
+    "slug": "righttouch-new-office-party",
+    "section": "RightTouch inc.",
+    "title": "RightTouch New Office Party!",
+    "category": "",
+    "tags": [],
+    "thumbnail": "RT_nop_01.png",
+    "year": "2026",
+    "scope": "",
+    "tool": "",
+    "images": [
+      { "src": "/img/RT_nop_01.png", "alt": "RightTouch New Office Party!" },
+      { "src": "/img/RT_nop_02.png", "alt": "RightTouch New Office Party!" }
+    ],
+    "description": [],
+    "links": []
+  },
+  {
     "slug": "righttouch-thanks-day-2025",
     "section": "RightTouch inc.",
     "title": "Thanks Day 2025",
@@ -23,6 +66,29 @@
       "Thanks DayのKVは「Prism」をコンセプトに、1本の光がプリズム（＝今回はQANTのこと）を通ることで、多様な色へと分かれ、広がっていくように、QANTというブランドの立ち上がり・スタート地点としての「今」と、そこから多方向へと広がる未来への兆しを込めました。","リブランディングをただの変化や転換点ではなく、新たな広がりの始まりを予期させ、感じさせる表現を目指してデザインし、これまでのKARTEシリーズのグリーン、QANTのブルー、RightTouchのコーポレートロゴのレッド、それぞれを織り込みながら、調和するように考えていきました。"
     ],
     "links": []
+  },
+  {
+    "slug": "righttouch-mind",
+    "section": "RightTouch inc.",
+    "title": "RightTouch Mind",
+    "category": "Graphic , Illustration , Branding",
+    "tags": ["Graphic", "Illustration"],
+    "thumbnail": "RT_mind_01.png",
+    "year": "2025",
+    "scope": "イラスト , スライド資料作成",
+    "tool": "Illustrator , Figma , Procreate(iPad)",
+    "images": [
+      { "src": "/img/RT_mind_01.png", "alt": "RightTouch Mind" }
+    ],
+    "description": [
+      "RightTouchらしく働くために、社内で大切にしている共通の価値観や行動指針を言語化した資料「RightTouch Mind」のデザインを担当しました。",
+      "組織文化を醸成し、迷った時の拠り所となることを目指して制作。スライドのビジュアルデザインから、言葉の選定まで携わっています。",
+      "言葉だけでは社内に浸透しないという考えから、Mindの各言葉を動物の特性に重ね合わせ、イラストに落とし込んでいます。"
+    ],
+    "embed": "https://speakerdeck.com/righttouch/righttouch-mind",
+    "links": [
+      { "label": "https://speakerdeck.com/righttouch/righttouch-mind", "url": "https://speakerdeck.com/righttouch/righttouch-mind" }
+    ]
   },
   {
     "slug": "stores",

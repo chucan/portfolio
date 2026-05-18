@@ -11,6 +11,15 @@ export default async function WorkPage({ params }) {
   const work = works.find((w) => w.slug === slug)
   if (!work) notFound()
 
+  let embedHtml = null
+  if (work.embed) {
+    try {
+      const res = await fetch(`https://speakerdeck.com/oembed.json?url=${encodeURIComponent(work.embed)}`)
+      const data = await res.json()
+      embedHtml = data.html
+    } catch {}
+  }
+
   return (
     <main>
       <section className="works_detail">
@@ -67,7 +76,7 @@ export default async function WorkPage({ params }) {
             {work.description.map((para, i) => (
               <p key={i}>{para}</p>
             ))}
-            {work.links && work.links.map((link, i) => (
+            {!work.embed && work.links && work.links.map((link, i) => (
               <p key={i}>
                 <a href={link.url} target="_blank" rel="noopener noreferrer">
                   {link.label}
@@ -86,6 +95,18 @@ export default async function WorkPage({ params }) {
                 />
                 {img.caption && <figcaption>{img.caption}</figcaption>}
               </figure>
+            ))}
+          </div>
+        )}
+        {embedHtml && (
+          <div className="embed_container">
+            <div dangerouslySetInnerHTML={{ __html: embedHtml }} />
+            {work.links && work.links.map((link, i) => (
+              <p key={i}>
+                <a href={link.url} target="_blank" rel="noopener noreferrer">
+                  {link.label}
+                </a>
+              </p>
             ))}
           </div>
         )}

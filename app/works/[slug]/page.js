@@ -40,6 +40,8 @@ export default async function WorkPage({ params }) {
               src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${work.images[0].src}`}
               alt={work.images[0].alt}
               className={work.images[0].small ? 'img_small' : ''}
+              loading="eager"
+              decoding="async"
             />
           </div>
         )}
@@ -96,6 +98,8 @@ export default async function WorkPage({ params }) {
                 <img
                   src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${img.src}`}
                   alt={img.alt}
+                  loading="lazy"
+                  decoding="async"
                 />
                 {img.caption && (
                   <figcaption>

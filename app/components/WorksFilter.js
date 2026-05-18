@@ -55,7 +55,7 @@ export default function WorksFilter({ works }) {
               <div className="works_list" key={work.slug}>
                 <Link href={`/works/${work.slug}`}>
                   <div className="img_box">
-                    <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/${work.thumbnail}`} alt={work.title} />
+                    <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/${work.thumbnail}`} alt={work.title} loading="lazy" decoding="async" />
                   </div>
                   <p className="work_title">{work.title}</p>
                 </Link>
